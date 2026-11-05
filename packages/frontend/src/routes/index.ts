@@ -642,7 +642,7 @@ const routes: RouteRecordRaw[] = [
 ];
 
 export const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore dunno why but TS is stupidly angry here for now reason, after
   // adding nested routes for settings
