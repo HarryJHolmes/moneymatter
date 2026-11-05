@@ -25,4 +25,4 @@ jobs:
           file: self-hosting/frontend/Dockerfile
           platforms: linux/arm64
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/moneymatter-fe-ingress:latest
+          tags: ghcr.io/harryjholmes/moneymatter-fe-ingress:latest
